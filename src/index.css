@@ -1,0 +1,248 @@
+/* Estilos globais para o Material UI */
+/* body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+} */
+
+/* Correção específica para o seletor gerado pelo Material UI */
+/* .css-ln023b-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 40px !important;
+} */
+
+/* Correção definitiva para problema de input - Apenas o essencial */
+/* .MuiInputBase-input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+} */
+
+/* Correção específica para todos os inputs do Material UI */
+/* .MuiTextField-root .MuiInputBase-input,
+.MuiFormControl-root .MuiInputBase-input,
+.MuiOutlinedInput-input,
+.MuiFilledInput-input,
+.MuiInput-input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+} */
+
+/* Correção específica para campos de busca e matéria */
+/* .MuiTextField-root input,
+.MuiFormControl-root input,
+.MuiOutlinedInput-root input,
+.MuiFilledInput-root input,
+.MuiInput-root input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+} */
+
+/* Correção específica para campos com placeholder */
+/* input[placeholder*="Matemática"],
+input[placeholder*="nome"],
+input[placeholder*="descrição"],
+input[placeholder*="turma"],
+input[placeholder*="matéria"] {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+} */
+
+/* Correção ULTRA específica para campos problemáticos */
+/* .MuiTextField-root .MuiInputBase-input[type="text"],
+.MuiTextField-root .MuiInputBase-input[type="email"],
+.MuiTextField-root .MuiInputBase-input[type="date"],
+.MuiFormControl-root .MuiInputBase-input[type="text"],
+.MuiFormControl-root .MuiInputBase-input[type="email"],
+.MuiFormControl-root .MuiInputBase-input[type="date"] {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  flex: 1 !important;
+} */
+
+/* Correção para todos os inputs em qualquer container */
+/* * .MuiInputBase-input,
+* .MuiOutlinedInput-input,
+* .MuiFilledInput-input,
+* .MuiInput-input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+} */
+
+/* Correção FINAL para campos problemáticos */
+/* .MuiTextField-root .MuiInputBase-input,
+.MuiTextField-root .MuiOutlinedInput-input,
+.MuiTextField-root .MuiFilledInput-input,
+.MuiTextField-root .MuiInput-input,
+.MuiFormControl-root .MuiInputBase-input,
+.MuiFormControl-root .MuiOutlinedInput-input,
+.MuiFormControl-root .MuiFilledInput-input,
+.MuiFormControl-root .MuiInput-input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  flex: 1 !important;
+  box-sizing: border-box !important;
+} */
+
+/* Correção para inputs nativos em Material UI */
+/* .MuiTextField-root input,
+.MuiFormControl-root input,
+.MuiOutlinedInput-root input,
+.MuiFilledInput-root input,
+.MuiInput-root input {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  flex: 1 !important;
+  box-sizing: border-box !important;
+} */
+
+/* Correção para inputs nativos */
+/* input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+textarea {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+} */
+
+/* Ajustar altura dos campos para ficarem iguais aos botões */
+/* .MuiTextField-root {
+  height: 36px !important;
+}
+
+.MuiTextField-root .MuiInputBase-root {
+  height: 36px !important;
+}
+
+.MuiTextField-root .MuiInputBase-input {
+  height: 36px !important;
+  padding: 16px 10px !important;
+} */
+
+
+/* Correção para TableCell que está ocultando conteúdo */
+/* .MuiTableCell-root {
+  min-width: 150px !important;
+  width: auto !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+  padding: 8px 16px !important;
+} */
+
+/* Correção específica para Selects em TableCell */
+/* .MuiTableCell-root .MuiSelect-select {
+  min-width: 120px !important;
+  width: 100% !important;
+  padding-right: 40px !important;
+  overflow: visible !important;
+} */
+
+/* Correção para FormControl em TableCell */
+/* .MuiTableCell-root .MuiFormControl-root {
+  min-width: 120px !important;
+  width: 100% !important;
+} */
+
+/* Correção para InputLabel em TableCell */
+/* .MuiTableCell-root .MuiInputLabel-root {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  max-width: none !important;
+} */
+
+/* Correção específica para diálogo de cadastro de aluno */
+/* .MuiDialog-root .MuiDialog-paper {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.MuiDialog-root .MuiFormControl-root {
+  min-width: 200px !important;
+}
+
+.MuiDialog-root .MuiInputLabel-root {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  max-width: none !important;
+}
+
+.MuiDialog-root .MuiSelect-select {
+  padding-right: 40px !important;
+  min-width: 120px !important;
+} */
+
+
+/* Menu responsivo para smartphones */
+.MuiTabs-root {
+  overflow-x: auto !important;
+  scrollbar-width: thin;
+}
+
+.MuiTabs-root::-webkit-scrollbar {
+  height: 4px;
+}
+
+.MuiTabs-root::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.MuiTabs-root::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 2px;
+}
+
+.MuiTabs-root::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Melhorar acessibilidade em mobile */
+@media (max-width: 600px) {
+  .MuiTab-root {
+    min-width: 60px !important;
+    padding: 6px 8px !important;
+    font-size: 0.65rem !important;
+  }
+  
+  .MuiTab-iconWrapper {
+    font-size: 1.2rem !important;
+    margin-bottom: 2px !important;
+  }
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
