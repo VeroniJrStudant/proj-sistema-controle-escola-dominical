@@ -648,6 +648,13 @@ const AttendanceSystem = () => {
                 marginBottom: { xs: "2px", sm: "0px" },
               },
             },
+            "& .MuiTabs-list": {
+              justifyContent: "center",
+              display: "flex",
+              flexDirection: { xs: "column", sm: "row" },
+              alignItems: "center",
+              gap: { xs: "4px", sm: "8px" },
+            },
           }}
         >
           <Tab
@@ -711,8 +718,8 @@ const AttendanceSystem = () => {
       {loading && <LinearProgress />}
 
       <TabPanel value={activeTab} index={0}>
-        <Grid container spacing={3}>
-          <Grid item xs={12}>
+        <Grid container spacing={3} justifyContent="center">
+          <Grid item xs={12} md={10} lg={8} xl={6}>
             <Card>
               <CardHeader title="Registro de Presença" />
               <CardContent>
@@ -732,7 +739,7 @@ const AttendanceSystem = () => {
                           minWidth: "200px",
                           width: "100%",
                           maxWidth: "none",
-                        },
+                        }
                       }}
                     />
                   </Grid>
@@ -841,7 +848,7 @@ const AttendanceSystem = () => {
           </Grid>
 
           {selectedClass && (
-            <Grid item xs={12}>
+            <Grid item xs={12} md={10} lg={8} xl={6}>
               <Card>
                 <CardHeader
                   title={`Lista de Alunos - ${selectedClass}`}
