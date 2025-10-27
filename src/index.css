@@ -191,6 +191,10 @@ textarea {
   min-width: 120px !important;
 } */
 
+/* .css-112navy-MuiGrid-root{
+  flex-direction: column;
+  justify-content: space-around;
+} */
 
 /* Menu responsivo para smartphones */
 .MuiTabs-root {

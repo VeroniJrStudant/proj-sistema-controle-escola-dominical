@@ -649,9 +649,9 @@ const AttendanceSystem = () => {
               },
             },
             "& .MuiTabs-list": {
-              justifyContent: "center",
               display: "flex",
               flexDirection: { xs: "column", sm: "row" },
+              justifyContent: "center",
               alignItems: "center",
               gap: { xs: "4px", sm: "8px" },
             },
@@ -718,7 +718,7 @@ const AttendanceSystem = () => {
       {loading && <LinearProgress />}
 
       <TabPanel value={activeTab} index={0}>
-        <Grid container spacing={3} justifyContent="center">
+        <Grid container spacing={3} justifyContent="center" flexDirection="column">
           <Grid item xs={12} md={10} lg={8} xl={6}>
             <Card>
               <CardHeader title="Registro de Presença" />
